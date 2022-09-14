@@ -10,8 +10,7 @@ import net.rhelv.originiummod.OriginiumMod;
 
 public class ModItem {
 
-    public static final Item ORIGINIUM = registerItem("originium",
-            new Item(new FabricItemSettings().rarity(Rarity.EPIC).group(ItemGroup.MISC)));
+
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(OriginiumMod.MOD_ID, name), item);
@@ -20,4 +19,7 @@ public class ModItem {
     public static void registerModItem() {
         OriginiumMod.LOGGER.debug("Registering items for " + OriginiumMod.MOD_ID);
     }
+    //Adds Items
+    public static final Item ORIGINIUM = registerItem("originium",
+            new Item(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.ORIGINIUM)));
 }

@@ -1,3 +1,6 @@
 {
-  "item.originiummod.originium": "Originium"
+  "item.originiummod.originium": "Originium",
+  "item.originiummod.tntx5": "TNTx5",
+
+  "itemGroup.originiummod.originium": "Originium & Originium Tools"
 }
