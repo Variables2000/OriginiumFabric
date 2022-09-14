@@ -6,8 +6,7 @@ import org.slf4j.LoggerFactory;
 
 public class OriginiumMod implements ModInitializer {
 
-	public static final String MOD_ID = "modid";
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
 
 	@Override
 	public void onInitialize() {

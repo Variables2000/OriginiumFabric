@@ -6,25 +6,28 @@
   "name": "Originium Mod",
   "description": "Adds Originium to your worlds!",
   "authors": [
-    "Rhelvetican (Coding)"
+    "Rhelvetican (Coding)",
     "Rubidianlabs (Textures)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Variables2000",
+    "sources": "https://github.com/Variables2000/Originium-Mod"
   },
 
   "license": "MIT License",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/originiummod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "net.rhelv.originiummod.OriginiumMod"
+    ],
+    "client": [
+      "net.rhelv.originiummod.OriginiumModClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "originiummod.mixins.json"
   ],
 
   "depends": {
@@ -32,8 +35,5 @@
     "fabric-api": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
