@@ -28,6 +28,6 @@ public class ModBlock{
     }
 
     //Adds blocks
-    public static final Block TNTX5 = registerBlock("originiumtnt",
+    public static final Block ORIGINIUMTNT = registerBlock("originiumtnt",
             new Block(FabricBlockSettings.of(Material.TNT).strength(0.5f)), ModItemGroup.ORIGINIUM);
 }
