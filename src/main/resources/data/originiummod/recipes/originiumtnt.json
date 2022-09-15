@@ -1,20 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " T ",
+    "WTW",
     "TOT",
-    " T "
+    "WTW"
   ],
+
   "key": {
     "T": {
       "item": "minecraft:tnt"
     },
     "O": {
       "item": "originiummod:originium"
+    },
+    "W": {
+      "tag": "minecraft:planks"
     }
   },
   "result": {
     "item": "originiummod:originiumtnt",
-    "count": 1
+    "count": 4
   }
 }
