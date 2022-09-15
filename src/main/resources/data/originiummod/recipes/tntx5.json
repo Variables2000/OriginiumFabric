@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "TOT",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "O": {
+      "item": "originiummod:originium"
+    }
+  },
+  "result": {
+    "item": "originiummod:tntx5",
+    "count": 1
+  }
+}
