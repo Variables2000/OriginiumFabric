@@ -1,6 +1,6 @@
 # OriginiumFabric
 
-Made by Rhelvetican and Rubidianlabs.
+Made by Rhelvetican (Coding) and Rubidianlabs (Resources & Art).
 
 As far as I'm concerned, there's no way in hell what Raviole would be actually cool but well...
 
