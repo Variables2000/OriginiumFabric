@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "originiummod:block/tntx5"
+    "all": "originiummod:block/originiumtnt"
   }
 }

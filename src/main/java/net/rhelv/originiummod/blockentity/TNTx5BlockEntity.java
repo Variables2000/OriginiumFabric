@@ -13,7 +13,7 @@ import net.rhelv.originiummod.block.ModBlock;
 public class TNTx5BlockEntity extends BlockEntity {
     public static final BlockEntityType<TNTx5BlockEntity> TNTx5_MOD_ENTITY = Registry.register(
             Registry.BLOCK_ENTITY_TYPE,
-            new Identifier(OriginiumMod.MOD_ID, "tntx5"),
+            new Identifier(OriginiumMod.MOD_ID, "originiumtnt"),
             FabricBlockEntityTypeBuilder.create(TNTx5BlockEntity::new, ModBlock.TNTX5).build()
     );
 
