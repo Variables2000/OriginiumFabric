@@ -9,7 +9,7 @@ import static net.rhelv.originiummod.block.ModBlock.registerBlock;
 
 public class OriginiumTNT extends TntBlock {
     public static final Block OriginiumTNT = registerBlock("originiumtnt",
-            new TntBlock(FabricBlockSettings.of(Material.TNT).strength(0.5f)), ModItemGroup.ORIGINIUM);
+            new OriginiumTNT(FabricBlockSettings.of(Material.TNT).strength(0.5f)), ModItemGroup.ORIGINIUM);
     public static void registerModBlocks() {
         OriginiumMod.LOGGER.debug("Registering ModBlocks for " + OriginiumMod.MOD_ID);
     }
