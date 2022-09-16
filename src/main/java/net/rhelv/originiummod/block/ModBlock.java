@@ -22,11 +22,4 @@ public class ModBlock{
         return Registry.register(Registry.ITEM, new Identifier(OriginiumMod.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(tab)));
     }
-
-    public static void registerModBlocks() {
-        OriginiumMod.LOGGER.debug("Registering ModBlocks for " + OriginiumMod.MOD_ID);
-    }
-    public static final Block ORIGINIUMTNT = registerBlock("originiumtnt",
-            new Block(FabricBlockSettings.of(Material.TNT).strength(0.5f)), ModItemGroup.ORIGINIUM);
-    //Adds blocks
 }
