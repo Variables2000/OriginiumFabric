@@ -1,6 +1,8 @@
 {
-  "parent": "block/cube_all",
+  "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "all": "originiummod:block/originiumtnt"
+    "bottom": "originiummod:block/originiumtnt_bottom",
+    "side": "originiummod:block/originiumtnt_side",
+    "top": "originiummod:block/originiumtnt_top"
   }
 }

@@ -26,8 +26,7 @@ public class ModBlock{
     public static void registerModBlocks() {
         OriginiumMod.LOGGER.debug("Registering ModBlocks for " + OriginiumMod.MOD_ID);
     }
-
-    //Adds blocks
     public static final Block ORIGINIUMTNT = registerBlock("originiumtnt",
             new Block(FabricBlockSettings.of(Material.TNT).strength(0.5f)), ModItemGroup.ORIGINIUM);
+    //Adds blocks
 }
