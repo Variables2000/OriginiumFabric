@@ -8,7 +8,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    ORIGINIUM(4, 2871, 11.5F, 5.5F, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
+    ORIGINIUM(4, 2871, 10.5F, 6.0F, 15, () -> Ingredient.ofItems(ModItem.ORIGINIUM));
 
     private final int miningLevel;
     private final int itemDurability;

@@ -22,6 +22,7 @@ public class ModItem {
             new Item(new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.ORIGINIUM)));
 
     public static final Item ORINGINIUM_SWORD = registerItem("originium_sword",
-            new SwordItem(ModToolMaterial.ORIGINIUM, 9, 2.5f,
+            new SwordItem(ModToolMaterial.ORIGINIUM, 9, 2.0f,
                     new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.ORIGINIUM)));
+
 }
