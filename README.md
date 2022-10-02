@@ -1,6 +1,6 @@
 # OriginiumFabric
 
-Made by Rhelvetican (Coding) and Rubidianlabs (Resources & Art).
+Made by Rhelvetican (Coding), Kokice5 (Animations) and Rubidianlabs (Resources & Art).
 
 Contacts:
 ```
@@ -8,4 +8,6 @@ Contacts:
         Discord: Quantic#7201
     Rubidianlabs:
         Discord: Rubidianlabs#6205
+    Kokice5:
+        Discord: Kokice5#5961
 ```
