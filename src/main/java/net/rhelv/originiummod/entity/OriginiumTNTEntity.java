@@ -7,6 +7,7 @@ import net.minecraft.world.World;
 public class OriginiumTNTEntity extends TntEntity {
     public OriginiumTNTEntity(EntityType<? extends TntEntity> entityType, World world) {
         super(entityType, world);
+
     }
 
 }
