@@ -1,20 +1,21 @@
 package net.rhelv.originiummod.block;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.*;
-import net.minecraft.util.Rarity;
-import net.rhelv.originiummod.OriginiumMod;
-import net.rhelv.originiummod.item.ModItemGroup;
-
-import static net.rhelv.originiummod.block.ModBlock.registerBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.TntBlock;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 
 public class OriginiumTNT extends TntBlock {
-    public static final Block OriginiumTNT = registerBlock("originiumtnt",
-            new OriginiumTNT(FabricBlockSettings.of(Material.TNT).strength(0.5f)), ModItemGroup.ORIGINIUM, Rarity.EPIC);
-    public static void registerModBlocks() {
-        OriginiumMod.LOGGER.debug("Registering ModBlocks for " + OriginiumMod.MOD_ID);
-    }
     public OriginiumTNT(Settings settings) {
         super(settings);
+    }
+    @Override
+    public void neighborUpdate(BlockState state, World world, BlockPos pos, Block sourceBlock, BlockPos sourcePos, boolean notify) {
+        if (world.isReceivingRedstonePower(pos)) {
+            primeTnt(world, pos);
+            world.removeBlock(pos, false);
+        }
+
     }
 }

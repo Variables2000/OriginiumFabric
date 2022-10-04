@@ -14,6 +14,9 @@ import net.rhelv.originiummod.OriginiumMod;
 import net.rhelv.originiummod.item.ModItemGroup;
 
 public class ModBlock{
+    public static void init() {
+        return;
+    }
     public static Block registerBlock(String name, Block block, ItemGroup tab, Rarity rarity) {
         registerBlockItem(name, block, tab, rarity);
         return Registry.register(Registry.BLOCK, new Identifier(OriginiumMod.MOD_ID, name), block);
@@ -23,4 +26,6 @@ public class ModBlock{
         return Registry.register(Registry.ITEM, new Identifier(OriginiumMod.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(tab).rarity(rarity)));
     }
+    public static final Block OriginiumTNT = registerBlock("originiumtnt",
+            new OriginiumTNT(FabricBlockSettings.of(Material.TNT).strength(0.5f)), ModItemGroup.ORIGINIUM, Rarity.EPIC);
 }

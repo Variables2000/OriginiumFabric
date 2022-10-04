@@ -14,8 +14,8 @@ public class ModItem {
         return Registry.register(Registry.ITEM, new Identifier(OriginiumMod.MOD_ID, name), item);
     }
 
-    public static void registerModItem() {
-        OriginiumMod.LOGGER.debug("Registering items for " + OriginiumMod.MOD_ID);
+    public static void init() {
+        return;
     }
     //Adds Items
     public static final Item ORIGINIUM = registerItem("originium",
