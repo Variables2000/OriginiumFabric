@@ -1,7 +1,8 @@
 {
   "item.originiummod.originium": "Originium",
   "item.originiummod.originium_sword": "Originium Sword",
+  "item.originiummod.originium_pickaxe": "Originium Pickaxe",
   "block.originiummod.originiumtnt": "Originium Bomb",
 
-  "itemGroup.originiummod.originium": "Originium & Originium Tools"
+  "itemGroup.originiummod.originium": "Originium Mod"
 }

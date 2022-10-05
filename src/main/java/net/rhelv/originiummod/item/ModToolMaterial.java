@@ -7,7 +7,7 @@ import net.rhelv.originiummod.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    ORIGINIUM(4, 2871, 10.5F, 6.0F, 15, () -> Ingredient.ofItems(ModItem.ORIGINIUM));
+    ORIGINIUM(4, 3271, 13.5F, 6.5F, 15, () -> Ingredient.ofItems(ModItem.ORIGINIUM));
 
     private final int miningLevel;
     private final int itemDurability;
