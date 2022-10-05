@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OO",
+    "OS",
+    " S"
+  ],
+
+  "key": {
+    "O": {
+      "item": "originiummod:originium"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "originiummod:originium_axe",
+    "count": 1
+  }
+}

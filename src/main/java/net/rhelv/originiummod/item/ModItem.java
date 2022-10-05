@@ -1,6 +1,7 @@
 package net.rhelv.originiummod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.SwordItem;
@@ -27,4 +28,10 @@ public class ModItem {
     public static final Item ORIGINIUM_PICKAXE = registerItem("originium_pickaxe",
             new PickaxeItem(ModToolMaterial.ORIGINIUM, 3, 0,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.ORIGINIUM)));
+    public static final Item ORIGINIUM_AXE = registerItem("originium_axe",
+            new AxeItem(ModToolMaterial.ORIGINIUM, 8, 1.5f,
+                    new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.ORIGINIUM)));
+    public static final Item XIAOMI_12T_PRO_5G = registerItem("xiaomi_12t_pro_5g",
+            new SwordItem(ModToolMaterial.ORIGINIUM, 9999, 9999.0f,
+                    new FabricItemSettings().rarity(Rarity.EPIC).group(ModItemGroup.ORIGINIUM)));
 }

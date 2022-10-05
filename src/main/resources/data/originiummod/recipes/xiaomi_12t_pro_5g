@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NON",
+    "NNN"
+  ],
+
+  "key": {
+    "O": {
+      "item": "originiummod:originium"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "originiummod:xiaomi_12t_pro_5g",
+    "count": 1
+  }
+}
