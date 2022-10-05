@@ -1,14 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "NNN",
-    "NON",
-    "NNN"
+    "DOD",
+    "ONO",
+    "DOD"
   ],
 
   "key": {
     "O": {
       "item": "originiummod:originium"
+    },
+    "D": {
+      "item": "minecraft:diamond"
     },
     "N": {
       "item": "minecraft:nether_star"
