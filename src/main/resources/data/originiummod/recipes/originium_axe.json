@@ -1,24 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "WTW",
-    "TOT",
-    "WTW"
+    "OO",
+    "OS",
+    " S"
   ],
 
   "key": {
-    "T": {
-      "item": "minecraft:tnt"
-    },
     "O": {
       "item": "originiummod:originium"
     },
-    "W": {
-      "tag": "minecraft:planks"
+    "S": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "originiummod:originiumtnt",
+    "item": "originiummod:originium_axe",
     "count": 1
   }
 }

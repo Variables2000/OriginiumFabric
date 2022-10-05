@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DOD",
+    "ONO",
+    "DOD"
+  ],
+
+  "key": {
+    "O": {
+      "item": "originiummod:originium"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "originiummod:xiaomi_12t_pro_5g",
+    "count": 1
+  }
+}

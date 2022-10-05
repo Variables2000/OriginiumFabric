@@ -15,7 +15,7 @@ public class OriginiumMod implements ModInitializer {
 
     @Override
 	public void onInitialize() {
-		ModItem.registerModItem();
-		OriginiumTNT.registerModBlocks();
+		ModItem.init();
+		ModBlock.init();
 	}
 }
