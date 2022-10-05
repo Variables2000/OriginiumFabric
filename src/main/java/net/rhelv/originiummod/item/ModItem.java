@@ -21,7 +21,6 @@ public class ModItem {
     //Adds Items
     public static final Item ORIGINIUM = registerItem("originium",
             new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ModItemGroup.ORIGINIUM)));
-
     public static final Item ORINGINIUM_SWORD = registerItem("originium_sword",
             new SwordItem(ModToolMaterial.ORIGINIUM, 2, 1.2f,
                     new FabricItemSettings().rarity(Rarity.RARE).group(ModItemGroup.ORIGINIUM)));
